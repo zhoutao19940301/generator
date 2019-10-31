@@ -14,7 +14,7 @@ import java.util.Properties;
  * @ Author : zhangshengqiang
  * @ Date   : 2019/5/23 17:36
  **/
-public class CommentGenerator extends MapperCommentGenerator {
+public class CommentGenerator extends DefaultCommentGenerator {
 
     private boolean addRemarkComments = false;
     private static final String EXAMPLE_SUFFIX = "Example";
